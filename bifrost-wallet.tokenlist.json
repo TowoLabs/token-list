@@ -216,8 +216,8 @@
         {
             "chainId": 1,
             "address": "0x221657776846890989a759ba2973e427dff5c9bb",
-            "name": "Augur",
-            "symbol": "REP",
+            "name": "Reputation",
+            "symbol": "REPv2",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x221657776846890989a759ba2973e427dff5c9bb.png"
         },
@@ -280,10 +280,18 @@
         {
             "chainId": 1,
             "address": "0xc11b1268c1a384e55c48c2391d8d480264a3a7f4",
-            "name": "Compound Wrapped BTC",
+            "name": "Compound Wrapped BTC Legacy",
             "symbol": "CWBTC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xc11b1268c1a384e55c48c2391d8d480264a3a7f4.png"
+        },
+        {
+            "chainId": 1,
+            "address": "0xccf4429db6322d5c611ee964527d42e5d685dd6a",
+            "name": "Compound Wrapped BTC",
+            "symbol": "CWBTC",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xccf4429db6322d5c611ee964527d42e5d685dd6a.png"
         },
         {
             "chainId": 1,
