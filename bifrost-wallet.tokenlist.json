@@ -86,14 +86,6 @@
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x75231f58b43240c9718dd58b4967c5114342a86c.png"
         },
         {
-            "chainId": 1,
-            "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
-            "name": "Compound Ether",
-            "symbol": "CETH",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5.png"
-        },
-        {
             "address": "0x50d1c9771902476076ecfc8b2a83ad6b9355a4c9",
             "chainId": 1,
             "name": "FTX Token",
@@ -223,6 +215,14 @@
         },
         {
             "chainId": 1,
+            "address": "0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5",
+            "name": "Compound Ether",
+            "symbol": "CETH",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x4ddc2d193948926d02f9b1fe9e1daa0718270ed5.png"
+        },
+        {
+            "chainId": 1,
             "address": "0x70e36f6bf80a52b3b46b3af8e106cc0ed743e8e4",
             "name": "Compound Collateral",
             "symbol": "CCOMP",
@@ -236,6 +236,22 @@
             "symbol": "CUSDC",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x39aa39c021dfbae8fac545936693ac917d5e7563.png"
+        },
+        {
+            "address": "0x35a18000230da775cac24873d00ff85bccded550",
+            "chainId": 1,
+            "name": "Compound Uni",
+            "symbol": "CUNI",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x35a18000230da775cac24873d00ff85bccded550.png"
+        },
+        {
+            "address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
+            "chainId": 1,
+            "name": "Compound USDT",
+            "symbol": "CUSDT",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9.png"
         },
         {
             "chainId": 1,
@@ -468,14 +484,6 @@
             "symbol": "CRV",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xd533a949740bb3306d119cc777fa900ba034cd52.png"
-        },
-        {
-            "address": "0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9",
-            "chainId": 1,
-            "name": "Compound USDT",
-            "symbol": "CUSDT",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xf650c3d88d12db855b8bf7d11be6c55a4e07dcc9.png"
         },
         {
             "address": "0x8290333cef9e6d528dd5618fb97a76f268f3edd4",
@@ -836,14 +844,6 @@
             "symbol": "SETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x5e74c9036fb86bd7ecdcb084a0673efc32ea31cb.png"
-        },
-        {
-            "address": "0x35a18000230da775cac24873d00ff85bccded550",
-            "chainId": 1,
-            "name": "Compound Uni",
-            "symbol": "CUNI",
-            "decimals": 8,
-            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x35a18000230da775cac24873d00ff85bccded550.png"
         },
         {
             "address": "0xba100000625a3754423978a60c9317c58a424e3d",
@@ -1284,6 +1284,38 @@
             "symbol": "WETH",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2.png"
+        },
+        {
+            "address": "0xd0660cd418a64a1d44e9214ad8e459324d8157f1",
+            "chainId": 1,
+            "name": "Woofy",
+            "symbol": "WOOFY",
+            "decimals": 12,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xd0660cd418a64a1d44e9214ad8e459324d8157f1.png"
+        },
+        {
+            "address": "0x3f382dbd960e3a9bbceae22651e88158d2791550",
+            "chainId": 1,
+            "name": "Aavegotchi",
+            "symbol": "GHST",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x3f382dbd960e3a9bbceae22651e88158d2791550.png"
+        },
+        {
+            "address": "0x98c36c0e953463bd5146c8783ce081ce1d187acf",
+            "chainId": 1,
+            "name": "Polyient Games Unity",
+            "symbol": "PGU",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x98c36c0e953463bd5146c8783ce081ce1d187acf.png"
+        },
+        {
+            "address": "0xeaccb6e0f24d66cf4aa6cbda33971b9231d332a1",
+            "chainId": 1,
+            "name": "Polyient Games Governance Token",
+            "symbol": "PGT",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xeaccb6e0f24d66cf4aa6cbda33971b9231d332a1.png"
         }
     ]
 }
