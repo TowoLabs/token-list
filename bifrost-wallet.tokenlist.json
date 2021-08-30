@@ -1316,6 +1316,14 @@
             "symbol": "PGT",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xeaccb6e0f24d66cf4aa6cbda33971b9231d332a1.png"
+        },
+        {
+            "address": "0x2b591e99afe9f32eaa6214f7b7629768c40eeb39",
+            "chainId": 1,
+            "name": "HEX",
+            "symbol": "HEX",
+            "decimals": 8,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2b591e99afe9f32eaa6214f7b7629768c40eeb39.png"
         }
     ]
 }
