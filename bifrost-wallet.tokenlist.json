@@ -1,10 +1,10 @@
 {
     "name": "Bifrost Wallet",
-    "timestamp": "2021-08-25T00:00:00+00:00",
+    "timestamp": "2021-09-05T00:00:00+00:00",
     "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/bifrost-wallet.png",
     "version": {
         "major": 1,
-        "minor": 0,
+        "minor": 1,
         "patch": 0
     },
     "keywords": [
