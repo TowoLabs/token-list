@@ -1324,6 +1324,14 @@
             "symbol": "HEX",
             "decimals": 8,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2b591e99afe9f32eaa6214f7b7629768c40eeb39.png"
+        },
+        {
+            "address": "0x55296f69f40ea6d20e478533c15a6b08b654e758",
+            "chainId": 1,
+            "name": "XYO",
+            "symbol": "XYO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x55296f69f40ea6d20e478533c15a6b08b654e758.png"
         }
     ]
 }
