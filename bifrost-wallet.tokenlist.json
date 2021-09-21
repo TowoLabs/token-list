@@ -1620,6 +1620,22 @@
             "symbol": "XYO",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x55296f69f40ea6d20e478533c15a6b08b654e758.png"
+        },
+        {
+            "address": "0x32e2e7c8bd8cae5a6d3f1518873de11a13f4debd",
+            "chainId": 19,
+            "name": "Canary Dollar",
+            "symbol": "CAND",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x32e2e7c8bd8cae5a6d3f1518873de11a13f4debd.png"
+        },
+        {
+            "address": "0x85a2f819ff93b286815fae6cf4c95a55d0f6a696",
+            "chainId": 19,
+            "name": "DAO Flare",
+            "symbol": "DFLR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x85a2f819ff93b286815fae6cf4c95a55d0f6a696.png"
         }
     ]
 }
