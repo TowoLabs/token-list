@@ -1620,14 +1620,62 @@
             "symbol": "XYO",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x55296f69f40ea6d20e478533c15a6b08b654e758.png"
+        }, 
+        {
+            "address": "0x0def8d8adde14c9ef7c2a986df3ea4bd65826767",
+            "chainId": 1,
+            "name": "DefiCliq",
+            "symbol": "CLIQ",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0def8d8adde14c9ef7c2a986df3ea4bd65826767.png"
         },
         {
-            "address": "0x32e2e7c8bd8cae5a6d3f1518873de11a13f4debd",
+            "address": "0x0f7f961648ae6db43c75663ac7e5414eb79b5704",
+            "chainId": 1,
+            "name": "XIO Network",
+            "symbol": "XIO",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0f7f961648ae6db43c75663ac7e5414eb79b5704.png"
+        },
+        {
+            "address": "0x9534ad65fb398e27ac8f4251dae1780b989d136e",
+            "chainId": 1,
+            "name": "Vulcan Forged",
+            "symbol": "PYR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x9534ad65fb398e27ac8f4251dae1780b989d136e.png"
+        },
+        {
+            "address": "0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a",
+            "chainId": 1,
+            "name": "Revolution Populi",
+            "symbol": "RVP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x17ef75aa22dd5f6c2763b8304ab24f40ee54d48a.png"
+        },
+        {
+            "address": "0x7d29a64504629172a429e64183d6673b9dacbfce",
+            "chainId": 1,
+            "name": "Vectorspace AI",
+            "symbol": "VXV",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x7d29a64504629172a429e64183d6673b9dacbfce.png"
+        },
+        {
+            "address": "0x65a8fba02f641a13bb7b01d5e1129b0521004f52",
+            "chainId": 1,
+            "name": "Amasa",
+            "symbol": "AMAS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x65a8fba02f641a13bb7b01d5e1129b0521004f52.png"
+        },
+        {
+            "address": "0x70ad7172ef0b131a1428d0c1f66457eb041f2176",
             "chainId": 19,
             "name": "Canary Dollar",
             "symbol": "CAND",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x32e2e7c8bd8cae5a6d3f1518873de11a13f4debd.png"
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x70ad7172ef0b131a1428d0c1f66457eb041f2176.png"
         },
         {
             "address": "0x85a2f819ff93b286815fae6cf4c95a55d0f6a696",
