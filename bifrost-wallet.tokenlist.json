@@ -1678,6 +1678,14 @@
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x65a8fba02f641a13bb7b01d5e1129b0521004f52.png"
         },
         {
+            "address": "0x0dde6f6e345bfd23f3f419f0dfe04e93143b44fb",
+            "chainId": 1,
+            "name": "SOTA Finance",
+            "symbol": "SOTA",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0dde6f6e345bfd23f3f419f0dfe04e93143b44fb.png"
+        },
+        {
             "address": "0x70ad7172ef0b131a1428d0c1f66457eb041f2176",
             "chainId": 19,
             "name": "Canary Dollar",
