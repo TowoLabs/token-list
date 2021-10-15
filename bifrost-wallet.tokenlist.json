@@ -1694,12 +1694,12 @@
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x70ad7172ef0b131a1428d0c1f66457eb041f2176.png"
         },
         {
-            "address": "0x85a2f819ff93b286815fae6cf4c95a55d0f6a696",
+            "address": "0x6f1be01f9cd0c14e38f94e81cb281ecb98cc6a9b",
             "chainId": 19,
             "name": "DAO Flare",
             "symbol": "DFLR",
             "decimals": 18,
-            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x85a2f819ff93b286815fae6cf4c95a55d0f6a696.png"
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x6f1be01f9cd0c14e38f94e81cb281ecb98cc6a9b.png"
         }
     ]
 }
