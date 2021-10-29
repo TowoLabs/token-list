@@ -1700,6 +1700,14 @@
             "symbol": "DFLR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x6f1be01f9cd0c14e38f94e81cb281ecb98cc6a9b.png"
+        },
+        {
+            "address": "0x3b46090e608cbc963356f30857f4dacc09f5ddc4",
+            "chainId": 19,
+            "name": "Best FTSO NFT Points",
+            "symbol": "NFTP",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x3b46090e608cbc963356f30857f4dacc09f5ddc4.png"
         }
     ]
 }
