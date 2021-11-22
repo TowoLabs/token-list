@@ -1,10 +1,10 @@
 {
     "name": "Bifrost Wallet",
-    "timestamp": "2021-09-05T00:00:00+00:00",
+    "timestamp": "2021-11-22T00:00:00+00:00",
     "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/bifrost-wallet.png",
     "version": {
         "major": 1,
-        "minor": 1,
+        "minor": 2,
         "patch": 0
     },
     "keywords": [
@@ -1708,6 +1708,22 @@
             "symbol": "NFTP",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x3b46090e608cbc963356f30857f4dacc09f5ddc4.png"
+        },
+        {
+            "address": "0x47c830e141234d029d953df39b13d7728eb9f2d4",
+            "chainId": 19,
+            "name": "FlareX",
+            "symbol": "FLRX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x47c830e141234d029d953df39b13d7728eb9f2d4.png"
+        },
+        {
+            "address": "0x32c16ba8a4b1f2501a16bcdaf53b51fb982eaec4",
+            "chainId": 19,
+            "name": "FlareX Legacy",
+            "symbol": "FLRX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x32c16ba8a4b1f2501a16bcdaf53b51fb982eaec4.png"
         }
     ]
 }
