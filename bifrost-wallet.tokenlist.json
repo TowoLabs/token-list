@@ -1,10 +1,10 @@
 {
     "name": "Bifrost Wallet",
-    "timestamp": "2021-11-22T00:00:00+00:00",
+    "timestamp": "2021-12-31T00:00:00+00:00",
     "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/bifrost-wallet.png",
     "version": {
         "major": 1,
-        "minor": 2,
+        "minor": 4,
         "patch": 0
     },
     "keywords": [
@@ -1697,7 +1697,7 @@
             "address": "0x6f1be01f9cd0c14e38f94e81cb281ecb98cc6a9b",
             "chainId": 19,
             "name": "DAO Flare",
-            "symbol": "DFLR",
+            "symbol": "dFLR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x6f1be01f9cd0c14e38f94e81cb281ecb98cc6a9b.png"
         },
@@ -1724,6 +1724,22 @@
             "symbol": "FLRX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x32c16ba8a4b1f2501a16bcdaf53b51fb982eaec4.png"
+        },
+        {
+            "address": "0x72d932019ae098a6368e6676e16169d112e7720a",
+            "chainId": 19,
+            "name": "Experimental Finance Token",
+            "symbol": "EXFI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x72d932019ae098a6368e6676e16169d112e7720a.png"
+        },
+        {
+            "address": "0x8d32e20d119d936998575b4aaff66b9999011d27",
+            "chainId": 19,
+            "name": "CanaryX",
+            "symbol": "CNYX",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x8d32e20d119d936998575b4aaff66b9999011d27.png"
         }
     ]
 }
