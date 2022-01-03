@@ -1,10 +1,10 @@
 {
     "name": "Bifrost Wallet",
-    "timestamp": "2021-12-31T00:00:00+00:00",
+    "timestamp": "2022-01-03T00:00:00+00:00",
     "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/bifrost-wallet.png",
     "version": {
         "major": 1,
-        "minor": 4,
+        "minor": 5,
         "patch": 0
     },
     "keywords": [
@@ -1726,9 +1726,17 @@
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x32c16ba8a4b1f2501a16bcdaf53b51fb982eaec4.png"
         },
         {
-            "address": "0x72d932019ae098a6368e6676e16169d112e7720a",
+            "address": "0xc348f894d0e939fe72c467156e6d7dcbd6f16e21",
             "chainId": 19,
             "name": "Experimental Finance Token",
+            "symbol": "EXFI",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xc348f894d0e939fe72c467156e6d7dcbd6f16e21.png"
+        },
+        {
+            "address": "0x72d932019ae098a6368e6676e16169d112e7720a",
+            "chainId": 19,
+            "name": "Experimental Finance Token Legacy",
             "symbol": "EXFI",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x72d932019ae098a6368e6676e16169d112e7720a.png"
