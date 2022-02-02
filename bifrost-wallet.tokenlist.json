@@ -1,10 +1,10 @@
 {
     "name": "Bifrost Wallet",
-    "timestamp": "2022-01-03T00:00:00+00:00",
+    "timestamp": "2022-02-02T00:00:00+00:00",
     "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/bifrost-wallet.png",
     "version": {
         "major": 1,
-        "minor": 5,
+        "minor": 6,
         "patch": 0
     },
     "keywords": [
@@ -1748,6 +1748,22 @@
             "symbol": "CNYX",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x8d32e20d119d936998575b4aaff66b9999011d27.png"
+        },
+        {
+            "address": "0x399e279c814a3100065fceab8cba1ab114805344",
+            "chainId": 19,
+            "name": "sRIBBITS",
+            "symbol": "SRIBBITS",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x399e279c814a3100065fceab8cba1ab114805344.png"
+        },
+        {
+            "address": "0x0d94e59332732d18cf3a3d457a8886a2ae29ea1b",
+            "chainId": 19,
+            "name": "Songbird Finance Token",
+            "symbol": "SFIN",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0d94e59332732d18cf3a3d457a8886a2ae29ea1b.png"
         }
     ]
 }
