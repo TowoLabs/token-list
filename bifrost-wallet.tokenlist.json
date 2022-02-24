@@ -592,10 +592,18 @@
         {
             "address": "0x8762db106B2c2A0bccB3A80d1Ed41273552616E8",
             "chainId": 1,
-            "name": "Reserve Rights",
+            "name": "Reserve Rights Legacy",
             "symbol": "RSR",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x8762db106B2c2A0bccB3A80d1Ed41273552616E8.png"
+        },
+        {
+            "address": "0x320623b8E4fF03373931769A31Fc52A4E78B5d70",
+            "chainId": 1,
+            "name": "Reserve Rights",
+            "symbol": "RSR",
+            "decimals": 18,
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x320623b8E4fF03373931769A31Fc52A4E78B5d70.png"
         },
         {
             "address": "0x5f98805A4E8be255a32880FDeC7F6728C6568bA0",
