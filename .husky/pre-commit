@@ -4,6 +4,7 @@ const fs = require("fs");
 const path = require("path");
 const Ajv = require("ajv");
 const addFormats = require("ajv-formats");
+const web3Utils = require("web3-utils");
 
 const repoPath = path.join(__dirname, "..");
 const listPath = path.join(repoPath, "bifrost-wallet.tokenlist.json");
@@ -11,6 +12,20 @@ const schemaPath = path.join(repoPath, "tokenlist.schema.json");
 
 const listBuffer = fs.readFileSync(listPath);
 const listString = listBuffer.toString("utf-8");
+
+// Helper function
+const root = {};
+function isUnique(token, propertyName) {
+  const chainId = token.chainId;
+  const propertyValue = token[propertyName];
+  const forChainId = root[chainId] = root[chainId] || {};
+  const knownValues = forChainId[propertyName] = forChainId[propertyName] || new Set();
+  if (knownValues.has(propertyValue)) {
+    throw new Error(`Property ${propertyName} is not unique, ${propertyValue} already exists for chain ID ${chainId}`);
+  }
+
+  knownValues.add(propertyValue);
+}
 
 // Parse JSON (will fail if file has BOM added)
 let listContent;
@@ -37,3 +52,24 @@ const isListValid = validator(listContent);
 if (!isListValid) {
   throw new Error(`List content is invalid.\n\nErrors:\n${JSON.stringify(validator.errors, null, 2)}`);
 }
+
+const addressRegex = /0x[0-9A-Fa-f]{40}/;
+listContent.tokens.forEach(token => {
+  // Validate EIP-55 address checksum
+  if (!web3Utils.checkAddressChecksum(token.address)) {
+    throw new Error(`Invalid checksum for token address: ${token.address}`);
+  }
+
+  // Validate logo file name
+  const logoFileName = token.logoURI.match(addressRegex)[0];
+  if (logoFileName !== token.address) {
+    throw new Error(`Logo file name mismatch, expected ${token.address}, received ${logoFileName}`);
+  }
+
+  // Validate token uniqueness
+  isUnique(token, "address");
+  isUnique(token, "name");
+  isUnique(token, "logoURI");
+
+  // TODO: Validate image size and dimensions
+});

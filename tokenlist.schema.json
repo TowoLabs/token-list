@@ -1,8 +1,8 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "https://uniswap.org/tokenlist.schema.json",
-  "title": "Uniswap Token List",
-  "description": "Schema for lists of tokens compatible with the Uniswap Interface",
+  "$id": "https://raw.githubusercontent.com/TowoLabs/token-list/master/tokenlist.schema.json",
+  "title": "Bifrost Wallet Token List",
+  "description": "Schema for lists of tokens compatible with Bifrost Wallet",
   "definitions": {
     "Version": {
       "type": "object",
@@ -50,153 +50,6 @@
         "patch"
       ]
     },
-    "TagIdentifier": {
-      "type": "string",
-      "description": "The unique identifier of a tag",
-      "minLength": 1,
-      "maxLength": 10,
-      "pattern": "^[\\w]+$",
-      "examples": [
-        "compound",
-        "stablecoin"
-      ]
-    },
-    "ExtensionIdentifier": {
-      "type": "string",
-      "description": "The name of a token extension property",
-      "minLength": 1,
-      "maxLength": 40,
-      "pattern": "^[\\w]+$",
-      "examples": [
-        "color",
-        "is_fee_on_transfer",
-        "aliases"
-      ]
-    },
-    "ExtensionMap": {
-      "type": "object",
-      "description": "An object containing any arbitrary or vendor-specific token metadata",
-      "maxProperties": 10,
-      "propertyNames": {
-        "$ref": "#/definitions/ExtensionIdentifier"
-      },
-      "additionalProperties": {
-        "$ref": "#/definitions/ExtensionValue"
-      },
-      "examples": [
-        {
-          "color": "#000000",
-          "is_verified_by_me": true
-        },
-        {
-          "x-bridged-addresses-by-chain": {
-            "1": {
-              "bridgeAddress": "0x4200000000000000000000000000000000000010",
-              "tokenAddress": "0x4200000000000000000000000000000000000010"
-            }
-          }
-        }
-      ]
-    },
-    "ExtensionPrimitiveValue": {
-      "anyOf": [
-        {
-          "type": "string",
-          "minLength": 1,
-          "maxLength": 42,
-          "examples": [
-            "#00000"
-          ]
-        },
-        {
-          "type": "boolean",
-          "examples": [
-            true
-          ]
-        },
-        {
-          "type": "number",
-          "examples": [
-            15
-          ]
-        },
-        {
-          "type": "null"
-        }
-      ]
-    },
-    "ExtensionValue": {
-      "anyOf": [
-        {
-          "$ref": "#/definitions/ExtensionPrimitiveValue"
-        },
-        {
-          "type": "object",
-          "maxProperties": 10,
-          "propertyNames": {
-            "$ref": "#/definitions/ExtensionIdentifier"
-          },
-          "additionalProperties": {
-            "$ref": "#/definitions/ExtensionValueInner0"
-          }
-        }
-      ]
-    },
-    "ExtensionValueInner0": {
-      "anyOf": [
-        {
-          "$ref": "#/definitions/ExtensionPrimitiveValue"
-        },
-        {
-          "type": "object",
-          "maxProperties": 10,
-          "propertyNames": {
-            "$ref": "#/definitions/ExtensionIdentifier"
-          },
-          "additionalProperties": {
-            "$ref": "#/definitions/ExtensionValueInner1"
-          }
-        }
-      ]
-    },
-    "ExtensionValueInner1": {
-      "anyOf": [
-        {
-          "$ref": "#/definitions/ExtensionPrimitiveValue"
-        }
-      ]
-    },
-    "TagDefinition": {
-      "type": "object",
-      "description": "Definition of a tag that can be associated with a token via its identifier",
-      "additionalProperties": false,
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "The name of the tag",
-          "pattern": "^[ \\w]+$",
-          "minLength": 1,
-          "maxLength": 20
-        },
-        "description": {
-          "type": "string",
-          "description": "A user-friendly description of the tag",
-          "pattern": "^[ \\w\\.,:]+$",
-          "minLength": 1,
-          "maxLength": 200
-        }
-      },
-      "required": [
-        "name",
-        "description"
-      ],
-      "examples": [
-        {
-          "name": "Stablecoin",
-          "description": "A token with value pegged to another asset"
-        }
-      ]
-    },
     "TokenInfo": {
       "type": "object",
       "description": "Metadata for a single token in a token list",
@@ -204,11 +57,11 @@
       "properties": {
         "chainId": {
           "type": "integer",
-          "description": "The chain ID of the Ethereum network where this token is deployed",
-          "minimum": 1,
+          "description": "The chain ID of the EVM-compatible network where this token is deployed. Enum may only include supported live networks.",
+          "enum": [1, 10, 19, 56, 137, 250, 42161],
           "examples": [
             1,
-            42
+            19
           ]
         },
         "address": {
@@ -243,33 +96,19 @@
           "description": "The symbol for the token; must be alphanumeric",
           "pattern": "^[a-zA-Z0-9+\\-%/$.]+$",
           "minLength": 1,
-          "maxLength": 20,
+          "maxLength": 64,
           "examples": [
             "USDC"
           ]
         },
         "logoURI": {
           "type": "string",
-          "description": "A URI to the token logo asset; if not set, interface will attempt to find a logo based on the token address; suggest SVG or PNG of size 64x64",
+          "description": "A URI to the token logo asset; must be PNG",
           "format": "uri",
+          "pattern": "^https:\\/\\/raw\\.githubusercontent\\.com\\/TowoLabs\\/token-list\\/master\\/assets\\/0x[A-Fa-f0-9]{40}\\.png$",
           "examples": [
-            "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM"
+            "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0d94e59332732d18cf3a3d457a8886a2ae29ea1b.png"
           ]
-        },
-        "tags": {
-          "type": "array",
-          "description": "An array of tag identifiers associated with the token; tags are defined at the list level",
-          "items": {
-            "$ref": "#/definitions/TagIdentifier"
-          },
-          "maxItems": 10,
-          "examples": [
-            "stablecoin",
-            "compound"
-          ]
-        },
-        "extensions": {
-          "$ref": "#/definitions/ExtensionMap"
         }
       },
       "required": [
@@ -277,7 +116,8 @@
         "address",
         "decimals",
         "name",
-        "symbol"
+        "symbol",
+        "logoURI"
       ]
     }
   },
@@ -289,7 +129,7 @@
       "description": "The name of the token list",
       "minLength": 1,
       "maxLength": 20,
-      "pattern": "^[\\w ]+$",
+      "pattern": "^[A-Za-z ]+$",
       "examples": [
         "My Token List"
       ]
@@ -319,48 +159,27 @@
         "description": "A keyword to describe the contents of the list",
         "minLength": 1,
         "maxLength": 20,
-        "pattern": "^[\\w ]+$",
+        "pattern": "^[a-z ]+$",
         "examples": [
-          "compound",
-          "lending",
-          "personal tokens"
+          "default",
+          "list"
         ]
       },
-      "maxItems": 20,
+      "maxItems": 10,
       "uniqueItems": true
-    },
-    "tags": {
-      "type": "object",
-      "description": "A mapping of tag identifiers to their name and description",
-      "propertyNames": {
-        "$ref": "#/definitions/TagIdentifier"
-      },
-      "additionalProperties": {
-        "$ref": "#/definitions/TagDefinition"
-      },
-      "maxProperties": 20,
-      "examples": [
-        {
-          "stablecoin": {
-            "name": "Stablecoin",
-            "description": "A token with value pegged to another asset"
-          }
-        }
-      ]
     },
     "logoURI": {
       "type": "string",
-      "description": "A URI for the logo of the token list; prefer SVG or PNG of size 256x256",
+      "description": "A URI for the logo of the token list",
       "format": "uri",
-      "examples": [
-        "ipfs://QmXfzKRvjZz3u5JRgC4v5mGVbm9ahrUiB4DgzHBsnWbTMM"
-      ]
+      "enum": ["https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/bifrost-wallet.png"]
     }
   },
   "required": [
     "name",
     "timestamp",
     "version",
-    "tokens"
+    "tokens",
+    "logoURI"
   ]
 }
