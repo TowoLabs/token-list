@@ -2772,6 +2772,126 @@
             "symbol": "EGG",
             "decimals": 18,
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xF952Fc3ca7325Cc27D15885d37117676d25BfdA6.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18,
+            "address": "0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x7ceB23fD6bC0adD59E62ac25578270cFf1b9f619.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Matic Token",
+            "symbol": "MATIC",
+            "decimals": 18,
+            "address": "0x0000000000000000000000000000000000001010",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0000000000000000000000000000000000001010.png"
+        },
+        {
+            "chainId": 137,
+            "name": "USD Coin",
+            "symbol": "USDC",
+            "decimals": 6,
+            "address": "0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6,
+            "address": "0xc2132D05D31c914a87C6611C10748AEb04B58e8F",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xc2132D05D31c914a87C6611C10748AEb04B58e8F.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18,
+            "address": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Aave",
+            "symbol": "AAVE",
+            "decimals": 18,
+            "address": "0xD6DF932A45C0f255f85145f286eA0b292B21C90B",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xD6DF932A45C0f255f85145f286eA0b292B21C90B.png"
+        },
+        {
+            "chainId": 137,
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18,
+            "address": "0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x53E0bca35eC356BD5ddDFebbD1Fc0fD03FaBad39.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8,
+            "address": "0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x1BFD67037B42Cf73acF2047067bd4F2C47D9BfD6.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Uniswap",
+            "symbol": "UNI",
+            "decimals": 18,
+            "address": "0xb33EaAd8d922B1083446DC23f610c2567fB5180f",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xb33EaAd8d922B1083446DC23f610c2567fB5180f.png"
+        },
+        {
+            "chainId": 137,
+            "name": "SushiToken",
+            "symbol": "SUSHI",
+            "decimals": 18,
+            "address": "0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0b3F868E0BE5597D5DB7fEB59E1CADBb0fdDa50a.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Quickswap",
+            "symbol": "QUICK",
+            "decimals": 18,
+            "address": "0x831753DD7087CaC61aB5644b308642cc1c33Dc13",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x831753DD7087CaC61aB5644b308642cc1c33Dc13.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Aavegotchi GHST Token",
+            "symbol": "GHST",
+            "decimals": 18,
+            "address": "0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x385Eeac5cB85A38A9a07A70c73e0a3271CfB54A7.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Telcoin",
+            "symbol": "TEL",
+            "decimals": 2,
+            "address": "0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xdF7837DE1F2Fa4631D716CF2502f8b230F1dcc32.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Balancer",
+            "symbol": "BAL",
+            "decimals": 18,
+            "address": "0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x9a71012B13CA4d3D0Cdc72A177DF3ef03b0E76A3.png"
+        },
+        {
+            "chainId": 137,
+            "name": "Binance USD",
+            "symbol": "BUSD",
+            "decimals": 18,
+            "address": "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7",
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7.png"
         }
     ]
 }
