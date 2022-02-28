@@ -3036,6 +3036,494 @@
             "decimals": 18,
             "address": "0xe1146b9AC456fCbB60644c36Fd3F868A9072fc6E",
             "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xe1146b9AC456fCbB60644c36Fd3F868A9072fc6E.png"
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x7cb16cb78ea464aD35c8a50ABF95dff3c9e09d5d.png",
+            "chainId": 42161,
+            "address": "0x7cb16cb78ea464aD35c8a50ABF95dff3c9e09d5d",
+            "name": "0xBitcoin Token",
+            "symbol": "0xBTC",
+            "decimals": 8
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0e15258734300290a651FdBAe8dEb039a8E7a2FA.png",
+            "chainId": 42161,
+            "address": "0x0e15258734300290a651FdBAe8dEb039a8E7a2FA",
+            "name": "Alchemy",
+            "symbol": "ALCH",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E.png",
+            "chainId": 42161,
+            "address": "0xBfa641051Ba0a0Ad1b0AcF549a89536A0D76472E",
+            "name": "Badger",
+            "symbol": "BADGER",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8.png",
+            "chainId": 42161,
+            "address": "0x040d1EdC9569d4Bab2D15287Dc5A4F10F56a56B8",
+            "name": "Balancer",
+            "symbol": "BAL",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x031d35296154279DC1984dCD93E392b1f946737b.png",
+            "chainId": 42161,
+            "address": "0x031d35296154279DC1984dCD93E392b1f946737b",
+            "name": "Cap",
+            "symbol": "CAP",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x3a8B787f78D775AECFEEa15706D4221B40F345AB.png",
+            "chainId": 42161,
+            "address": "0x3a8B787f78D775AECFEEa15706D4221B40F345AB",
+            "name": "CelerToken",
+            "symbol": "CELR",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x354A6dA3fcde098F8389cad84b0182725c6C91dE.png",
+            "chainId": 42161,
+            "address": "0x354A6dA3fcde098F8389cad84b0182725c6C91dE",
+            "name": "Compound",
+            "symbol": "COMP",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978.png",
+            "chainId": 42161,
+            "address": "0x11cDb42B0EB46D95f990BeDD4695A6e3fA034978",
+            "name": "Curve DAO Token",
+            "symbol": "CRV",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1.png",
+            "chainId": 42161,
+            "address": "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1",
+            "name": "Dai Stablecoin",
+            "symbol": "DAI",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xdeBa25AF35e4097146d7629055E0EC3C71706324.png",
+            "chainId": 42161,
+            "address": "0xdeBa25AF35e4097146d7629055E0EC3C71706324",
+            "name": "DEFI Top 5 Tokens Index",
+            "symbol": "DEFI5",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689.png",
+            "chainId": 42161,
+            "address": "0xaE6aab43C4f3E0cea4Ab83752C278f8dEbabA689",
+            "name": "dForce",
+            "symbol": "DF",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65.png",
+            "chainId": 42161,
+            "address": "0x8038F3C971414FD1FC220bA727F2D4A0fC98cb65",
+            "name": "dHedge DAO Token",
+            "symbol": "DHT",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581.png",
+            "chainId": 42161,
+            "address": "0x69Eb4FA4a2fbd498C257C57Ea8b7655a2559A581",
+            "name": "DODO bird",
+            "symbol": "DODO",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x4425742F1EC8D98779690b5A3A6276Db85Ddc01A.png",
+            "chainId": 42161,
+            "address": "0x4425742F1EC8D98779690b5A3A6276Db85Ddc01A",
+            "name": "The Doge NFT",
+            "symbol": "DOG",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55.png",
+            "chainId": 42161,
+            "address": "0x6C2C06790b3E3E3c38e12Ee22F8183b37a13EE55",
+            "name": "Dopex Governance Token",
+            "symbol": "DPX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xA7Aa2921618e3D63dA433829d448b58C9445A4c3.png",
+            "chainId": 42161,
+            "address": "0xA7Aa2921618e3D63dA433829d448b58C9445A4c3",
+            "name": "DeversiFi Token",
+            "symbol": "DVF",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xC3Ae0333F0F34aa734D5493276223d95B8F9Cb37.png",
+            "chainId": 42161,
+            "address": "0xC3Ae0333F0F34aa734D5493276223d95B8F9Cb37",
+            "name": "DXdao",
+            "symbol": "DXD",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xF80D589b3Dbe130c270a69F1a69D050f268786Df.png",
+            "chainId": 42161,
+            "address": "0xF80D589b3Dbe130c270a69F1a69D050f268786Df",
+            "name": "Flux",
+            "symbol": "FLUX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2338a5d62E9A766289934e8d2e83a443e8065b83.png",
+            "chainId": 42161,
+            "address": "0x2338a5d62E9A766289934e8d2e83a443e8065b83",
+            "name": "Flux Protocol",
+            "symbol": "FLUX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x488cc08935458403a0458e45E20c0159c8AB2c92.png",
+            "chainId": 42161,
+            "address": "0x488cc08935458403a0458e45E20c0159c8AB2c92",
+            "name": "Futureswap Token",
+            "symbol": "FST",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1.png",
+            "chainId": 42161,
+            "address": "0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1",
+            "name": "Gnosis Token",
+            "symbol": "GNO",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x07E49d5dE43DDA6162Fa28D24d5935C151875283.png",
+            "chainId": 42161,
+            "address": "0x07E49d5dE43DDA6162Fa28D24d5935C151875283",
+            "name": "GOVI",
+            "symbol": "GOVI",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614.png",
+            "chainId": 42161,
+            "address": "0x23A941036Ae778Ac51Ab04CEa08Ed6e2FE103614",
+            "name": "Graph Token",
+            "symbol": "GRT",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x9c67eE39e3C4954396b9142010653F17257dd39C.png",
+            "chainId": 42161,
+            "address": "0x9c67eE39e3C4954396b9142010653F17257dd39C",
+            "name": "Impermax",
+            "symbol": "IMX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x04cb2d263a7489f02d813eaaB9Ba1bb8466347F2.png",
+            "chainId": 42161,
+            "address": "0x04cb2d263a7489f02d813eaaB9Ba1bb8466347F2",
+            "name": "QIAN governance token",
+            "symbol": "KUN",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x3CD1833Ce959E087D0eF0Cb45ed06BffE60F23Ba.png",
+            "chainId": 42161,
+            "address": "0x3CD1833Ce959E087D0eF0Cb45ed06BffE60F23Ba",
+            "name": "Land",
+            "symbol": "LAND",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xf97f4df75117a78c1A5a0DBb814Af92458539FB4.png",
+            "chainId": 42161,
+            "address": "0xf97f4df75117a78c1A5a0DBb814Af92458539FB4",
+            "name": "ChainLink Token",
+            "symbol": "LINK",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x46d0cE7de6247b0A95f67b43B589b4041BaE7fbE.png",
+            "chainId": 42161,
+            "address": "0x46d0cE7de6247b0A95f67b43B589b4041BaE7fbE",
+            "name": "LoopringCoin V2",
+            "symbol": "LRC",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x539bdE0d7Dbd336b79148AA742883198BBF60342.png",
+            "chainId": 42161,
+            "address": "0x539bdE0d7Dbd336b79148AA742883198BBF60342",
+            "name": "MAGIC",
+            "symbol": "MAGIC",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x99F40b01BA9C469193B360f72740E416B17Ac332.png",
+            "chainId": 42161,
+            "address": "0x99F40b01BA9C469193B360f72740E416B17Ac332",
+            "name": "MATH Token",
+            "symbol": "MATH",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xaaA62D9584Cbe8e4D68A43ec91BfF4fF1fAdB202.png",
+            "chainId": 42161,
+            "address": "0xaaA62D9584Cbe8e4D68A43ec91BfF4fF1fAdB202",
+            "name": "Antimatter.Finance Governance Token",
+            "symbol": "MATTER",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42.png",
+            "chainId": 42161,
+            "address": "0x4e352cF164E64ADCBad318C3a1e222E9EBa4Ce42",
+            "name": "MCDEX Token",
+            "symbol": "MCB",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879.png",
+            "chainId": 42161,
+            "address": "0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879",
+            "name": "Maker",
+            "symbol": "MKR",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xB965029343D55189c25a7f3e0c9394DC0F5D41b1.png",
+            "chainId": 42161,
+            "address": "0xB965029343D55189c25a7f3e0c9394DC0F5D41b1",
+            "name": "Indexed",
+            "symbol": "NDX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xc9c2B86CD4cdbAB70cd65D22EB044574c3539F6c.png",
+            "chainId": 42161,
+            "address": "0xc9c2B86CD4cdbAB70cd65D22EB044574c3539F6c",
+            "name": "Feisty Doge NFT",
+            "symbol": "NFD",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x965772e0E9c84b6f359c8597C891108DcF1c5B1A.png",
+            "chainId": 42161,
+            "address": "0x965772e0E9c84b6f359c8597C891108DcF1c5B1A",
+            "name": "PickleToken",
+            "symbol": "PICKLE",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x51fC0f6660482Ea73330E414eFd7808811a57Fa2.png",
+            "chainId": 42161,
+            "address": "0x51fC0f6660482Ea73330E414eFd7808811a57Fa2",
+            "name": "Premia",
+            "symbol": "PREMIA",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xaeF5bbcbFa438519a5ea80B4c7181B4E78d419f2.png",
+            "chainId": 42161,
+            "address": "0xaeF5bbcbFa438519a5ea80B4c7181B4E78d419f2",
+            "name": "Rai Reflex Index",
+            "symbol": "RAI",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x32Eb7902D4134bf98A28b963D26de779AF92A212.png",
+            "chainId": 42161,
+            "address": "0x32Eb7902D4134bf98A28b963D26de779AF92A212",
+            "name": "Dopex Rebate Token",
+            "symbol": "RDPX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xef888bcA6AB6B1d26dbeC977C455388ecd794794.png",
+            "chainId": 42161,
+            "address": "0xef888bcA6AB6B1d26dbeC977C455388ecd794794",
+            "name": "Rari Governance Token",
+            "symbol": "RGT",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF.png",
+            "chainId": 42161,
+            "address": "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF",
+            "name": "Spell Token",
+            "symbol": "SPELL",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x326c33FD1113c1F29B35B4407F3d6312a8518431.png",
+            "chainId": 42161,
+            "address": "0x326c33FD1113c1F29B35B4407F3d6312a8518431",
+            "name": "Strips Token",
+            "symbol": "STRP",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x20f9628a485ebCc566622314f6e07E7Ee61fF332.png",
+            "chainId": 42161,
+            "address": "0x20f9628a485ebCc566622314f6e07E7Ee61fF332",
+            "name": "SUM",
+            "symbol": "SUM",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xd4d42F0b6DEF4CE0383636770eF773390d85c61A.png",
+            "chainId": 42161,
+            "address": "0xd4d42F0b6DEF4CE0383636770eF773390d85c61A",
+            "name": "SushiToken",
+            "symbol": "SUSHI",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xdE903E2712288A1dA82942DDdF2c20529565aC30.png",
+            "chainId": 42161,
+            "address": "0xdE903E2712288A1dA82942DDdF2c20529565aC30",
+            "name": "Swapr",
+            "symbol": "SWPR",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xFa51B42d4C9EA35F1758828226AaEdBeC50DD54E.png",
+            "chainId": 42161,
+            "address": "0xFa51B42d4C9EA35F1758828226AaEdBeC50DD54E",
+            "name": "Taekwondo Access Credit",
+            "symbol": "TAC",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xA72159FC390f0E3C6D415e658264c7c4051E9b87.png",
+            "chainId": 42161,
+            "address": "0xA72159FC390f0E3C6D415e658264c7c4051E9b87",
+            "name": "Tracer",
+            "symbol": "TCR",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2aD62674A64E698C24831Faf824973C360430140.png",
+            "chainId": 42161,
+            "address": "0x2aD62674A64E698C24831Faf824973C360430140",
+            "name": "UniBright",
+            "symbol": "UBT",
+            "decimals": 8
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0.png",
+            "chainId": 42161,
+            "address": "0xFa7F8980b0f1E64A2062791cc3b0871572f1F7f0",
+            "name": "Uniswap",
+            "symbol": "UNI",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x250F471385894fc81183a99d6fDe8CE9C5B142d6.png",
+            "chainId": 42161,
+            "address": "0x250F471385894fc81183a99d6fDe8CE9C5B142d6",
+            "name": "Unity Network",
+            "symbol": "UNT",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8.png",
+            "chainId": 42161,
+            "address": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+            "name": "USD Coin (Arb1)",
+            "symbol": "USDC",
+            "decimals": 6
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9.png",
+            "chainId": 42161,
+            "address": "0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9",
+            "name": "Tether USD",
+            "symbol": "USDT",
+            "decimals": 6
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x8d1c89DcF613e3e709AfE9Abecae591D0e2B64Ca.png",
+            "chainId": 42161,
+            "address": "0x8d1c89DcF613e3e709AfE9Abecae591D0e2B64Ca",
+            "name": "Validator",
+            "symbol": "VALX",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x995C235521820f2637303Ca1970c7c044583df44.png",
+            "chainId": 42161,
+            "address": "0x995C235521820f2637303Ca1970c7c044583df44",
+            "name": "VISOR",
+            "symbol": "VISR",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f.png",
+            "chainId": 42161,
+            "address": "0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f",
+            "name": "Wrapped BTC",
+            "symbol": "WBTC",
+            "decimals": 8
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x82aF49447D8a07e3bd95BD0d56f35241523fBab1.png",
+            "chainId": 42161,
+            "address": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+            "name": "Wrapped Ether",
+            "symbol": "WETH",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x5575552988A3A80504bBaeB1311674fCFd40aD4B.png",
+            "chainId": 42161,
+            "address": "0x5575552988A3A80504bBaeB1311674fCFd40aD4B",
+            "name": "Sperax",
+            "symbol": "SPA",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0xF0A5717Ec0883eE56438932b0fe4A20822735fBa.png",
+            "chainId": 42161,
+            "address": "0xF0A5717Ec0883eE56438932b0fe4A20822735fBa",
+            "name": "xToken",
+            "symbol": "XTK",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x82e3A8F066a6989666b031d916c43672085b1582.png",
+            "chainId": 42161,
+            "address": "0x82e3A8F066a6989666b031d916c43672085b1582",
+            "name": "yearn.finance",
+            "symbol": "YFI",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x0F61B24272AF65EACF6adFe507028957698e032F.png",
+            "chainId": 42161,
+            "address": "0x0F61B24272AF65EACF6adFe507028957698e032F",
+            "name": "Zippie",
+            "symbol": "ZIPT",
+            "decimals": 18
+        },
+        {
+            "logoURI": "https://raw.githubusercontent.com/TowoLabs/token-list/master/assets/0x9Ab3FD50FcAe73A1AEDa959468FD0D662c881b42.png",
+            "chainId": 42161,
+            "address": "0x9Ab3FD50FcAe73A1AEDa959468FD0D662c881b42",
+            "name": "Interest-Bearing Bitcoin",
+            "symbol": "ibBTC",
+            "decimals": 18
         }
     ]
 }
